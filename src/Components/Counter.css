@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(168, 204, 70);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 1rem;
+}
+
+h1 {
+  color: rgb(000, 000, 000);
+  text-align: center;
+  font-size: 2rem;
+}
+
+.container button {
+  margin: 1rem;
+}
+
+.btn {
+  padding: 0.9rem;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: chocolate;
+  font-size: 1.2rem;
+  /* box-shadow: 3px 4px 3px rgba(252, 244, 244, 0.938); */
+  transition: transform 0.3s linear, box-shadow 0.3s linear;
+}
+
+.btn:hover {
+  transform: translate(4px, -4px);
+  box-shadow: 12px 8px 1px rgba(235, 183, 69, 0.938);
+}
+
+.btn:active {
+  transform: translateY(2px);
+}
